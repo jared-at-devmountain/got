@@ -29,6 +29,6 @@ jonSnowDefense += 25;
 if (jonSnowHealth <= jamieLannisterAttack - jonSnowDefense) {
     console.log("Jon Snow has been slain");
 } else {
-    health -= (jamieLannisterAttack - defense);
+    jonSnowHealth -= (jamieLannisterAttack - jonSnowDefense);
     console.log(`Jon Snow's health is down to ${jonSnowHealth}`);
 }
